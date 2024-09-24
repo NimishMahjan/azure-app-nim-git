@@ -5,6 +5,12 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>azure_app_nim_git</RootNamespace>
+    <ApplicationInsightsResourceId>/subscriptions/17d093c8-d25f-4f1a-8fac-aaf20093070b/resourceGroups/nim-rg/providers/microsoft.insights/components/azure-app-nim-git</ApplicationInsightsResourceId>
+    <UserSecretsId>e124d9e8-4f87-478d-8be3-b0f78ab3d183</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.22.0" />
+  </ItemGroup>
 
 </Project>
